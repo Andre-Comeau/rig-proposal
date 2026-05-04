@@ -1,6 +1,6 @@
 # rig-proposal
 
-##Robotics Interest Group (RIG)
+Robotics Interest Group (RIG)
 
 This repository contains a **visual, HTML-based proposal** for a proposed **Robotics Interest Group (RIG)** hosted under the Protocol Institute.
 
