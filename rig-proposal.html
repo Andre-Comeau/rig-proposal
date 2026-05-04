@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Robotics Interest Group (RIG)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Protocolized-inspired typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+  <style>
+    :root {
+      --bg: #fafafa;
+      --ink: #1f2933;
+      --slate: #2f3e4d;
+      --orange: #f7931a;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, system-ui, sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    h1, h2 {
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    h1 { font-size: 3rem; }
+    h2 { font-size: 1.6rem; margin-top: 4rem; }
+
+    p.lead {
+      font-size: 1.15rem;
+      color: var(--slate);
+      max-width: 700px;
+    }
+
+    .divider {
+      margin: 3rem 0;
+      height: 1px;
+      background: var(--line);
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(247, 147, 26, 0.15);
+      color: var(--orange);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .tile {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .tile.reverse {
+      grid-template-columns: 1fr 1.2fr;
+    }
+
+    figure img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+
+    figcaption {
+      margin-top: 0.5rem;
+      font-style: italic;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "• ";
+      color: var(--orange);
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 6rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--line);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 900px) {
+      .tile,
+      .tile.reverse {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<main>
+
+  <!-- HERO -->
+  <span class="pill">Protocol Institute · Proposal</span>
+  <h1>Robotics Interest Group (RIG)</h1>
+  <p class="lead">
+    A playful, lightweight governance layer for applied research in <strong>agentic robotics</strong>.
+    Not a lab. Not a grant vehicle. A place where good projects can safely form.
+  </p>
+
+  <div class="divider"></div>
+
+  <!-- TILE 1: GOVERNANCE -->
+  <h2>How the RIG is structured</h2>
+  <div class="tile">
+    <div>
+      <ul>
+        <li>Hosted by the Protocol Institute</li>
+        <li>Volunteer, advisory, consensus‑led</li>
+        <li>Founding members from Yak Robotics</li>
+        <li>Embedded SCVIC researcher for execution continuity</li>
+        <li>Industry + end users shape questions, not answers</li>
+      </ul>
+    </div>
+    <figure>
+      <img src="images/rig-structure-diagram.jpg" alt="RIG Governance Ecosystem">
+      <figcaption>A convening structure — not ownership, not hierarchy.</figcaption>
+    </figure>
+  </div>
+
+  <!-- TILE 2: PROJECT FLOW -->
+  <h2>How projects actually happen</h2>
+  <div class="tile reverse">
+    <figure>
+      <img src="images/project-flowchart.jpg" alt="Project delivery flow">
+      <figcaption>Governance up top. Work in the middle. Learning everywhere.</figcaption>
+    </figure>
+    <div>
+      <ul>
+        <li>Project idea emerges</li>
+        <li>RIG helps shape scope &amp; constraints</li>
+        <li>SCVIC executes in‑lab</li>
+        <li>Intern embedded in real work</li>
+        <li>Outputs circulate openly</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- TILE 3: FUNDING -->
+  <h2>Funding + talent flywheel</h2>
+  <div class="tile">
+    <div>
+      <ul>
+        <li>Industry partner funds the problem</li>
+        <li>Mitacs covers ~50% of intern support</li>
+        <li>SCVIC provides lab + full‑time researchers</li>
+        <li>Talent learns by doing</li>
+        <li>Future paths: NSERC · NRC (drones, sensing, AI)</li>
+      </ul>
+    </div>
+    <figure>
+      <img src="images/funding-model.jpg" alt="Funding and talent flywheel">
+      <figcaption>
+        Industry funds learning. Canada co‑funds talent. Everyone keeps optionality.
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- WHY -->
+  <h2>Why industry shows up</h2>
+  <ul>
+    <li>Train people who can actually work with agents</li>
+    <li>Experiment without committing to products</li>
+    <li>Shape problems before markets harden</li>
+  </ul>
+
+  <p class="lead">
+    Agents are starting to operate in the real world.
+    Someone has to learn how to supervise them.
+  </p>
+
+  <!-- FOOTER -->
+  <footer>
+    Protocol Institute · Robotics Interest Group ·
+    Start small. Learn fast. Stay legible.
+  </footer>
+
+</main>
+</body>
+</html>
+``
