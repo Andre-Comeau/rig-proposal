@@ -1,7 +1,5 @@
 # rig-proposal
 
-Robotics Interest Group (RIG)
-
 This repository contains a **visual, HTML-based proposal** for a proposed **Robotics Interest Group (RIG)** hosted under the Protocol Institute.
 
 The RIG is conceived as a **lightweight, volunteer governance layer** for applied research in agentic robotics — a place where industry partners, researchers, and end users can collaboratively shape projects, without over-formalizing structure too early.
