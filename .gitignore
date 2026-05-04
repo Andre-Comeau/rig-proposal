@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# Node / build artifacts (if added later)
+node_modules/
+dist/
+
+# Netlify local config
+.netlify/
